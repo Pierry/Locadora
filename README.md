@@ -1,4 +1,6 @@
-locadoram1
+Locadora M1 - Avantis
 ==========
 
-LocadoraM1
+Trabalho PHP com CSS
+
+Objetivo: Cliente gostaria de gerenciar clientes e filmes
