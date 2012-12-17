@@ -1,0 +1,206 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Calibri;
+font-size: 18px;
+color: #000000;
+background: whitesmoke;
+}
+
+#page-container {
+    background: lightgrey;
+    width: 760px;
+    margin: auto;
+}
+
+.searchBox {
+    background-image: url(../imagens/fnd.png);        
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 400px;
+}
+
+#main-nav {
+    background: whitesmoke;        
+    clear: both;    
+    height: 50px;    
+}
+
+#main-nav dt#home,
+#main-nav dt#home a { 
+    height: 50px; 
+    width: 50px;
+    background-image: 
+    url(../imagens/nav/home_normal.png); 
+}
+
+#main-nav dt#home a:hover { 
+    height: 50px; 
+    width: 50px;
+    background-image: 
+    url(../imagens/nav/home_click.png); 
+}
+
+#main-nav dt#consulta_cliente,
+#main-nav dt#consulta_cliente a { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/consulta_cliente_normal.png); 
+}
+
+#main-nav dt#consulta_cliente a:hover { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/consulta_cliente_selected.png); 
+}
+
+#main-nav dt#consulta_filme,
+#main-nav dt#consulta_filme a { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/consulta_filme_normal.png); 
+}
+
+#main-nav dt#consulta_filme a:hover { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/consulta_filme_selected.png); 
+}
+
+#main-nav dt#inserir_cliente,
+#main-nav dt#inserir_cliente a { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/inserir_cliente_normal.png); 
+}
+
+#main-nav dt#inserir_cliente a:hover { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/inserir_cliente_selected.png); 
+}
+
+#main-nav dt#inserir_filme,
+#main-nav dt#inserir_filme a { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/inserir_filme_normal.png); 
+}
+
+#main-nav dt#inserir_filme a:hover { 
+    height: 50px; 
+    width: 140px;
+    background-image: 
+    url(../imagens/nav/inserir_filme_selected.png); 
+}
+
+#main-nav dt#locacao,
+#main-nav dt#locacao a { 
+    height: 50px; 
+    width: 150px;
+    background-image: 
+    url(../imagens/nav/nova_locacao_normal.png); 
+}
+
+#main-nav dt#locacao a:hover { 
+    height: 50px; 
+    width: 150px;
+    background-image: 
+    url(../imagens/nav/nova_locacao_selected.png); 
+}
+
+#main-nav dt {
+    float: left;
+}
+
+#main-nav dt a {
+display: block;
+height: 0px !important;
+padding: 50px 0 0 0;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+
+#header {
+    background-image: url(../imagens/logotipo.png);
+    height: 170px;
+}
+
+#footer {
+    background: black;
+    height: 66px;
+    padding-left: 10px;
+    padding-top: 10px;    
+    clear: both;
+    font-size: 12px;    
+    border-top: 1px solid #efefef;
+    padding: 13px 25px;
+    line-height: 18px;
+}
+
+#footer #altnav {
+    width: 600px;
+    float: right;
+    text-align: right;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+color: steelblue;
+}
+
+#sidebar-a {      
+    float: right;
+    width: 280px;
+    line-height: 18px;
+}
+
+#sidebar-a .padding {
+    padding: 25px;
+}
+
+#content {
+    background: white;        
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+}
+
+#content .padding {    
+    padding: 25px;
+    padding-left: 10px; 
+}
+
+#content h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+#content p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 57px;
+    padding-right: 31px
+}
